@@ -24,7 +24,7 @@ import java.net.Socket;
 
 class Email {
 
-  public static void main(String[] argv) throws Exception {
+  public static void main(String[] argv) throws Exception { 
     // Get user input
     BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
 
@@ -57,9 +57,9 @@ class Email {
     // Connect to the server
     Socket clientSocket = null;
 
-    try {
+    try { 
       clientSocket = new Socket("smtp.chapman.edu", 25);
-    } catch (Exception e) {
+    } catch (Exception e) { 
       System.out.println("Failed to open socket connection");
       System.exit(0);
     }
