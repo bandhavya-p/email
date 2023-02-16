@@ -118,12 +118,12 @@ class Email {
 
     // Send  inputed sentences and display the response
 
-    while (true){
+    while (true){ 
       outToServer.println(sentence);
       System.out.println("CLIENT: " + sentence);
       sentence = inFromUser.readLine();
 
-      if (sentence.equals(".")) {
+      if (sentence.equals(".")) { 
         break;
       }
     }
