@@ -22,7 +22,7 @@ import java.net.Socket;
 *  version: 3.1
 */
 
-class Email {
+class Email { 
 
   public static void main(String[] argv) throws Exception { 
     // Get user input
