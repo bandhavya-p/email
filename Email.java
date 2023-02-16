@@ -15,9 +15,9 @@ import java.net.Socket;
 *  Repeats until all sentences are sent.
 *  Closes the socket and exits.
 *  author: Trey Alexander
-*  Email:  roalexander
+*  Email:  roalexander@chapman.edu
 *  author: Bandhavya Parvathaneni 
-*  Email: parvathaneni@chapmam.edu
+*  Email: parvathaneni@chapman.edu
 *  Date:  2/13/23
 *  version: 3.1
 */
