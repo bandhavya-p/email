@@ -147,6 +147,5 @@ class Email {
 
     // Close the socket connection
     clientSocket.close();
-    System.exit(1);
   }
 }
