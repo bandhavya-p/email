@@ -1,8 +1,8 @@
-This README file describes the assignment. You must edit it to describe your program, not th assignment.
+This README file describes the assignment. You must edit it to describe your program, not the assignment.
 
-This repository contains a Email.java program that utilizes our previous TcpServer.java program and a TcpClient.java program. This program is similar to the original TCP client and server programs except that it takes input from the client which is sent to a server that sends out an email to a selected recipient.
+This repository contains a Email.java program that utilizes our previous TcpServer.java program and a TcpClient.java program. This program is similar to the original TCP client and server programs except that it takes input from the client which is sent to a server that sends out an email to a selected recipient. Our program prompts the client to input information such as their email address, the recipient's email address, the subject, the names of both the client and recipient, as well as the matter of this email. The client can input as much information as they please until they are ready to send. They can prompt the server to send by entering "." which prompts the server to stop.
 
-The client will send sentences to the server instead of just one, as you were asked to do in the Programming Assignment 0.
+The client will send two sentences to the server instead of just one, as you were asked to do in the Programming Assignment 0.
 Using the TcpClient.java program as a starting point for the Email.java program that you will create for the email assignment by copying the TcpClient.java file to a file named Email.java. We then edit this file to not only take input from the client, but to also sent that out to the server and display it.
 
 In the Email.java program,
@@ -39,6 +39,9 @@ Identifying Information
 Name: Bandhavya Parvathaneni
 Student ID: 2406700
 Email: parvathaneni@chapman.edu
+Name: Trey Alexander
+Student ID: 237235
+Email: roalexander@chapman.edu
 Course: CPSC 353
 Assignment: PA001
 Source Files
